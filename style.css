@@ -78,6 +78,8 @@ button {
 
 /* NAVIGATION */
 
+
+
 .nav__row {
     width: 100%;
     max-width: 1280px;
@@ -138,12 +140,14 @@ button {
 }
 
 .bars{
+    display: none !important; 
     font-size: 20px;
     transition: all 300ms ease;
     height: 1.5em;
     width: 1.5em;
-    display: none;
+    
 }
+
 
 .bars:hover{
     color: #6415ff;
@@ -829,7 +833,6 @@ footer {
 
 .footer__socials{
     font-size: 14px;
-    display: inline-block;
     border-radius: 60px;
 }
 
@@ -842,7 +845,7 @@ footer {
         display: none;
     }
     .bars{
-        display: flex;
+        display: block !important; 
     }
     .two__columns--row{
         display: flex;
